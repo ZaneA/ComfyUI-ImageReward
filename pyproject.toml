@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-imagereward"
+description = "NODES: ImageRewardLoader, ImageRewardScore"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["image-reward==1.4", "clip @ git+https://github.com/openai/CLIP.git"]
+
+[project.urls]
+Repository = "https://github.com/ZaneA/ComfyUI-ImageReward"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-ImageReward"
+Icon = ""
