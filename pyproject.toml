@@ -2,7 +2,7 @@
 name = "comfyui-imagereward"
 description = "NODES: ImageRewardLoader, ImageRewardScore"
 version = "1.0.0"
-license = "LICENSE"
+license = { file = "LICENSE" }
 dependencies = ["image-reward==1.4", "clip @ git+https://github.com/openai/CLIP.git"]
 
 [project.urls]
